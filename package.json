@@ -1,65 +1,173 @@
-{
-	"name": "json-file-plus",
-	"version": "3.3.1",
-	"author": {
-		"name": "Jordan Harband",
-		"email": "ljharb@gmail.com",
-		"url": "http://ljharb.codes"
+[
+	{
+		"name": "Deadpool",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/deadpool.jpg",
+			"medium": "https://cdn.pixabay.com/photo/2015/05/26/12/30/baby-784608_960_720.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/deadpool.jpg"
+		},
+		"timestamp": "February 12, 2016"
 	},
-	"contributors": [
-		{
-			"name": "Jordan Harband",
-			"email": "ljharb@gmail.com",
-			"url": "http://ljharb.codes"
-		}
-	],
-	"description": "Read from and write to a JSON file, minimizing diffs and preserving formatting.",
-	"license": "MIT",
-	"main": "index.js",
-	"scripts": {
-		"pretest": "npm run --silent lint",
-		"test": "npm run --silent tests-only",
-		"tests-only": "node test/test.js",
-		"posttest": "npm run audit",
-		"coverage": "covert test/test.js",
-		"coverage-quiet": "covert test/test.js --quiet",
-		"prelint": "evalmd README.md",
-		"lint": "eslint *.js test/*.js",
-		"preaudit": "npm install --package-lock --package-lock-only",
-		"audit": "npm audit",
-		"postaudit": "rm package-lock.json"
+	{
+		"name": "Batman vs Superman",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/bvs.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/bvs.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/bvs.jpg"
+		},
+		"timestamp": "March 25, 2016"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/ljharb/json-file-plus.git"
+	{
+		"name": "Captain America: Civil War",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/cacw.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/cacw.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/cacw.jpg"
+		},
+		"timestamp": "May 6, 2016"
 	},
-	"keywords": [
-		"json",
-		"json file",
-		"formatting",
-		"read",
-		"write",
-		"promise",
-		"promiseback"
-	],
-	"dependencies": {
-		"is": "^3.3.0",
-		"node.extend": "^2.0.2",
-		"object.assign": "^4.1.0",
-		"promiseback": "^2.0.2",
-		"safer-buffer": "^2.1.2"
+	{
+		"name": "Jason Bourne",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/bourne.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/bourne.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/bourne.jpg"
+		},
+		"timestamp": "July 29, 2016"
 	},
-	"devDependencies": {
-		"@ljharb/eslint-config": "^13.1.1",
-		"covert": "^1.1.1",
-		"eslint": "^5.13.0",
-		"evalmd": "^0.0.17",
-		"foreach": "^2.0.5",
-		"has": "^1.0.3",
-		"object-keys": "^1.0.12",
-		"tape": "^4.10.0"
+	{
+		"name": "Suicide Squad",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/squad.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/squad.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/squad.jpg"
+		},
+		"timestamp": "August 5, 2016"
 	},
-	"engines": {
-		"node": ">= 0.4"
+	{
+		"name": "Doctor Strange",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/doctor.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/doctor.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/doctor.jpg"
+		},
+		"timestamp": "November 4, 2016"
+	},
+	{
+		"name": "Finding Dory",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/dory.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/dory.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/dory.jpg"
+		},
+		"timestamp": "June 17, 2016 "
+	},
+	{
+		"name": "The Hunger Games: Mockingjay",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/hunger.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/hunger.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/hunger.jpg"
+		},
+		"timestamp": "November 20, 2016 "
+	},
+	{
+		"name": "The Finest Hours",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/hours.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/hours.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/hours.jpg"
+		},
+		"timestamp": "January 29, 2016 "
+	},
+	{
+		"name": "Ip Man 3",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/ipman3.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/ipman3.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/ipman3.jpg"
+		},
+		"timestamp": "December 24, 2015"
+	},
+	{
+		"name": "The Jungle Book",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/book.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/book.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/book.jpg"
+		},
+		"timestamp": "April 15, 2016"
+	},
+	{
+		"name": "The Jungle Book",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/book.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/book.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/book.jpg"
+		},
+		"timestamp": "April 15, 2016"
+	},
+	{
+		"name": "The Jungle Book",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/book.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/book.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/book.jpg"
+		},
+		"timestamp": "April 15, 2016"
+	},
+	{
+		"name": "The Jungle Book",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/book.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/book.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/book.jpg"
+		},
+		"timestamp": "April 15, 2016"
+	},
+	{
+		"name": "The Jungle Book",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/book.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/book.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/book.jpg"
+		},
+		"timestamp": "April 15, 2016"
+	},
+	{
+		"name": "The Jungle Book",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/book.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/book.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/book.jpg"
+		},
+		"timestamp": "April 15, 2016"
+	},
+	{
+		"name": "The Jungle Book",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/book.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/book.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/book.jpg"
+		},
+		"timestamp": "April 15, 2016"
+	},
+	{
+		"name": "The Jungle Book",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/book.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/book.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/book.jpg"
+		},
+		"timestamp": "April 15, 2016"
+	},
+	{
+		"name": "X-Men: Apocalypse",
+		"url": {
+			"small": "https://api.androidhive.info/images/glide/small/xmen.jpg",
+			"medium": "https://api.androidhive.info/images/glide/medium/xmen.jpg",
+			"large": "https://api.androidhive.info/images/glide/large/xmen.jpg"
+		},
+		"timestamp": "May 27, 2016"
 	}
-}
+]
